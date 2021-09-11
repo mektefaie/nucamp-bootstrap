@@ -17,8 +17,16 @@ $(function () {
     $("#reserveModal").modal('show');
   });
 
+  $("#reserveCross, #reserveCancel").click(function () {
+    $("#reserveModal").modal('hide');
+  });
+
   $("#loginButton").click(function () {
     $("#loginModal").modal('show');
+  });
+
+  $("#loginCross, #loginCancel").click(function () {
+    $("#loginModal").modal('hide');
   });
 
 });
