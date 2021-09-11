@@ -17,7 +17,7 @@
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
   },
   "author": "Mahmoud Ektefaie",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "copyfiles": "^2.2.0",
     "imagemin-cli": "^7.0.0",
